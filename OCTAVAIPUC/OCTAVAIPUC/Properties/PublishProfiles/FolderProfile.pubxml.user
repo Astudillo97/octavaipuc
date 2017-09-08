@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>J:\Publicaciones\octavaipuc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/08/2017 00:22:21</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/08/2017 00:22:20</publishTime>
+    </File>
+    <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
+      <publishTime>01/28/2015 04:02:48</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.resources.dll">
+      <publishTime>01/28/2015 04:02:58</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.WebHost.resources.dll">
+      <publishTime>01/28/2015 04:03:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 03:10:32</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/17/2016 18:29:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/OCTAVAIPUC.dll">
+      <publishTime>09/08/2017 00:21:49</publishTime>
+    </File>
+    <File Include="bin/OCTAVAIPUC.pdb">
+      <publishTime>09/08/2017 00:21:49</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/css/main.css">
+      <publishTime>09/04/2017 22:17:20</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/icons/fuse-icon-font/fonts/fuse-iconfont4edf.svg">
+      <publishTime>09/04/2017 22:17:20</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/icons/fuse-icon-font/fonts/fuse-iconfont4edf.ttf">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/icons/fuse-icon-font/fonts/fuse-iconfont4edf.woff">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/icons/fuse-icon-font/style.css">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/1.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/2.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/3.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/4.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/5.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Abbott.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/alice.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/andrew.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Arnold.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Barrera.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Blair.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Boyle.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/carl.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Christy.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Copeland.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/danielle.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Estes.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/garry.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Harper.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Helen.jpg">
+      <publishTime>09/04/2017 22:17:21</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Henderson.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/james.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/jane.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Josefina.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/joyce.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/katherine.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Katina.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Lily.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Mai.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Nancy.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Nora.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Odessa.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/profile.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Reyna.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Shauna.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Shepard.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Thumbs.db">
+      <publishTime>09/07/2017 23:54:07</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Tillman.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Trevino.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Tyson.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/Velazquez.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/avatars/vincent.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/april.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/august.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/december.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/february.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/january.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/july.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/june.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/march.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/may.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/november.jpg">
+      <publishTime>09/04/2017 22:17:22</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/october.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/september.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/backgrounds/Thumbs.db">
+      <publishTime>09/07/2017 23:54:16</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/ecommerce/product-image-placeholder.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/ecommerce/Thumbs.db">
+      <publishTime>09/07/2017 23:53:56</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/air-balloons.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/cactus.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/early-sunrise.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/fallout.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/mountain-lake.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/mountain-sunset.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/road-trip.jpg">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/etc/Thumbs.db">
+      <publishTime>09/07/2017 23:53:56</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/flags/es.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/flags/tr.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/flags/us.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/fuse-mini-logo.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/logos/android.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/logos/fallout.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/logos/google.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/logos/Thumbs.db">
+      <publishTime>09/07/2017 23:53:56</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/patterns/rain-grey.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/patterns/Thumbs.db">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/placeholder.png">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/images/Thumbs.db">
+      <publishTime>09/07/2017 23:53:56</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/calendar/calendar.js">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/chat/chat.js">
+      <publishTime>09/04/2017 22:17:23</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/dashboard/project.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/dashboard/server.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/e-commerce/orders/orders.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/e-commerce/product/product.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/apps/e-commerce/products/products.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/components/charts/nvd3.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/js/main.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/animate.css/animate.min.css">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/bootstrap/bootstrap.min.js">
+      <publishTime>09/04/2017 22:17:24</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/d3/d3.min.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/datatables-responsive/js/dataTables.responsive.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/datatables.net/js/jquery.dataTables.min.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/fullcalendar/dist/fullcalendar.min.css">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/fullcalendar/dist/fullcalendar.min.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/fullcalendar/dist/fullcalendar.print.min.css">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/fuse-html/fuse-html.min.css">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/fuse-html/fuse-html.min.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/jquery/dist/jquery.min.js">
+      <publishTime>09/04/2017 22:17:25</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/mobile-detect/mobile-detect.min.js">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/moment/min/moment.min.js">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/nvd3/build/nv.d3.min.css">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/nvd3/build/nv.d3.min.js">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/perfect-scrollbar/css/perfect-scrollbar.min.css">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/pnotify/pnotify.custom.min.css">
+      <publishTime>09/04/2017 22:17:26</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/pnotify/pnotify.custom.min.js">
+      <publishTime>09/04/2017 22:17:27</publishTime>
+    </File>
+    <File Include="Conten/Private/assets/vendor/popper.js/index.js">
+      <publishTime>09/04/2017 22:17:27</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/04/2017 21:16:01</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/08/2017 00:22:02</publishTime>
+    </File>
+    <File Include="View/Private/index.aspx">
+      <publishTime>09/04/2017 21:30:20</publishTime>
+    </File>
+    <File Include="View/Private/PAGEMASTER.Master">
+      <publishTime>09/04/2017 22:32:30</publishTime>
+    </File>
+    <File Include="View/Private/Persona_Registrar.aspx">
+      <publishTime>09/05/2017 21:20:58</publishTime>
+    </File>
+    <File Include="View/Public/login.aspx">
+      <publishTime>09/04/2017 21:53:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/08/2017 00:21:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

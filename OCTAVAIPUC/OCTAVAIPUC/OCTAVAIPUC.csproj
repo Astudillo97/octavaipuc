@@ -1,0 +1,303 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D4516AF-56B0-4222-925E-9F9C29F15B72}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCTAVAIPUC</RootNamespace>
+    <AssemblyName>OCTAVAIPUC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Conten\Private\assets\css\main.css" />
+    <Content Include="Conten\Private\assets\icons\fuse-icon-font\fonts\fuse-iconfont4edf.svg" />
+    <Content Include="Conten\Private\assets\icons\fuse-icon-font\style.css" />
+    <Content Include="Conten\Private\assets\images\avatars\1.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\2.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\3.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\4.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\5.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Abbott.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\alice.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\andrew.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Arnold.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Barrera.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Blair.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Boyle.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\carl.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Christy.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Copeland.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\danielle.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Estes.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\garry.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Harper.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Helen.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Henderson.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\james.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\jane.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Josefina.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\joyce.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\katherine.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Katina.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Lily.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Mai.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Nancy.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Nora.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Odessa.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\profile.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Reyna.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Shauna.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Shepard.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Tillman.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Trevino.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Tyson.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\Velazquez.jpg" />
+    <Content Include="Conten\Private\assets\images\avatars\vincent.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\april.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\august.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\december.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\february.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\january.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\july.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\june.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\march.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\may.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\november.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\october.jpg" />
+    <Content Include="Conten\Private\assets\images\backgrounds\september.jpg" />
+    <Content Include="Conten\Private\assets\images\ecommerce\product-image-placeholder.png" />
+    <Content Include="Conten\Private\assets\images\etc\air-balloons.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\cactus.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\early-sunrise.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\fallout.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\mountain-lake.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\mountain-sunset.jpg" />
+    <Content Include="Conten\Private\assets\images\etc\road-trip.jpg" />
+    <Content Include="Conten\Private\assets\images\flags\es.png" />
+    <Content Include="Conten\Private\assets\images\flags\tr.png" />
+    <Content Include="Conten\Private\assets\images\flags\us.png" />
+    <Content Include="Conten\Private\assets\images\fuse-mini-logo.png" />
+    <Content Include="Conten\Private\assets\images\logos\android.png" />
+    <Content Include="Conten\Private\assets\images\logos\fallout.png" />
+    <Content Include="Conten\Private\assets\images\logos\google.png" />
+    <Content Include="Conten\Private\assets\images\patterns\rain-grey.png" />
+    <Content Include="Conten\Private\assets\images\placeholder.png" />
+    <Content Include="Conten\Private\assets\js\apps\calendar\calendar.js" />
+    <Content Include="Conten\Private\assets\js\apps\chat\chat.js" />
+    <Content Include="Conten\Private\assets\js\apps\dashboard\project.js" />
+    <Content Include="Conten\Private\assets\js\apps\dashboard\server.js" />
+    <Content Include="Conten\Private\assets\js\apps\e-commerce\orders\orders.js" />
+    <Content Include="Conten\Private\assets\js\apps\e-commerce\products\products.js" />
+    <Content Include="Conten\Private\assets\js\apps\e-commerce\product\product.js" />
+    <Content Include="Conten\Private\assets\js\components\charts\nvd3.js" />
+    <Content Include="Conten\Private\assets\js\main.js" />
+    <Content Include="Conten\Private\assets\vendor\animate.css\animate.min.css" />
+    <Content Include="Conten\Private\assets\vendor\bootstrap\bootstrap.min.js" />
+    <Content Include="Conten\Private\assets\vendor\d3\d3.min.js" />
+    <Content Include="Conten\Private\assets\vendor\datatables-responsive\js\dataTables.responsive.js" />
+    <Content Include="Conten\Private\assets\vendor\datatables.net\js\jquery.dataTables.min.js" />
+    <Content Include="Conten\Private\assets\vendor\fullcalendar\dist\fullcalendar.min.css" />
+    <Content Include="Conten\Private\assets\vendor\fullcalendar\dist\fullcalendar.min.js" />
+    <Content Include="Conten\Private\assets\vendor\fullcalendar\dist\fullcalendar.print.min.css" />
+    <Content Include="Conten\Private\assets\vendor\fuse-html\fuse-html.min.css" />
+    <Content Include="Conten\Private\assets\vendor\fuse-html\fuse-html.min.js" />
+    <Content Include="Conten\Private\assets\vendor\jquery\dist\jquery.min.js" />
+    <Content Include="Conten\Private\assets\vendor\mobile-detect\mobile-detect.min.js" />
+    <Content Include="Conten\Private\assets\vendor\moment\min\moment.min.js" />
+    <Content Include="Conten\Private\assets\vendor\nvd3\build\nv.d3.min.css" />
+    <Content Include="Conten\Private\assets\vendor\nvd3\build\nv.d3.min.js" />
+    <Content Include="Conten\Private\assets\vendor\perfect-scrollbar\css\perfect-scrollbar.min.css" />
+    <Content Include="Conten\Private\assets\vendor\perfect-scrollbar\js\perfect-scrollbar.jquery.min.js" />
+    <Content Include="Conten\Private\assets\vendor\pnotify\pnotify.custom.min.css" />
+    <Content Include="Conten\Private\assets\vendor\pnotify\pnotify.custom.min.js" />
+    <Content Include="Conten\Private\assets\vendor\popper.js\index.js" />
+    <Content Include="Global.asax" />
+    <Content Include="View\Private\index.aspx" />
+    <Content Include="View\Private\Persona_Registrar.aspx" />
+    <Content Include="View\Public\login.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Data\Conexion\Conexion.cs" />
+    <Compile Include="App_Data\Conexion\Datos.cs" />
+    <Compile Include="App_Data\Interface\IDatos.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Celular.cs" />
+    <Compile Include="Models\Direccion.cs" />
+    <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\Permiso.cs" />
+    <Compile Include="Models\Persona.cs" />
+    <Compile Include="Models\Rol.cs" />
+    <Compile Include="Models\TipoIdentificacion.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Private\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\PAGEMASTER.Master.cs">
+      <DependentUpon>PAGEMASTER.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\PAGEMASTER.Master.designer.cs">
+      <DependentUpon>PAGEMASTER.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Persona_Registrar.aspx.cs">
+      <DependentUpon>Persona_Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Persona_Registrar.aspx.designer.cs">
+      <DependentUpon>Persona_Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Public\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Public\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="View\Private\PAGEMASTER.Master" />
+    <Content Include="Conten\Private\assets\icons\fuse-icon-font\fonts\fuse-iconfont4edf.ttf" />
+    <Content Include="Conten\Private\assets\icons\fuse-icon-font\fonts\fuse-iconfont4edf.woff" />
+    <Content Include="Conten\Private\assets\images\avatars\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\backgrounds\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\ecommerce\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\etc\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\logos\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\patterns\Thumbs.db" />
+    <Content Include="Conten\Private\assets\images\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56099</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56099/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

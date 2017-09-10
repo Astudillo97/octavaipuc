@@ -10,52 +10,52 @@
 namespace OCTAVAIPUC.View.Private {
     
     
-    public partial class Persona_Registrar {
+    public partial class Datos_Basicos {
         
         /// <summary>
-        /// Control TextIdentificacion.
+        /// Control Departamento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextIdentificacion;
+        protected global::System.Web.UI.WebControls.DropDownList Departamento;
         
         /// <summary>
-        /// Control DropTipoIdentificacion.
+        /// Control Municipio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropTipoIdentificacion;
+        protected global::System.Web.UI.WebControls.DropDownList Municipio;
         
         /// <summary>
-        /// Control TextNombre.
+        /// Control TextDireccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextNombre;
+        protected global::System.Web.UI.WebControls.TextBox TextDireccion;
         
         /// <summary>
-        /// Control TextApellido.
+        /// Control Profesion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextApellido;
+        protected global::System.Web.UI.WebControls.DropDownList Profesion;
         
         /// <summary>
-        /// Control TextCorreo.
+        /// Control TextCelular.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextCorreo;
+        protected global::System.Web.UI.WebControls.TextBox TextCelular;
         
         /// <summary>
         /// Control Alerta.
@@ -83,5 +83,14 @@ namespace OCTAVAIPUC.View.Private {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonRegistrar;
+        
+        /// <summary>
+        /// Control FileUpload1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
     }
 }

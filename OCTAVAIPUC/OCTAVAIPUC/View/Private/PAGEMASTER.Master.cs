@@ -25,12 +25,12 @@ namespace OCTAVAIPUC
                 }
                 else
                 {
-                    Response.Redirect("../Publico/index.aspx");
+                    Response.Redirect("../Public/login.aspx");
                 }
             }
             catch (Exception)
             {
-                Response.Redirect("../Publico/Login.aspx");
+                Response.Redirect("../Public/login.aspx");
             }
 
         }
@@ -39,6 +39,7 @@ namespace OCTAVAIPUC
         {
             Session["Persona"] = null;
             Session["Usuario"] = null;
+            Session.Abandon();
             Response.Redirect("../Public/login.aspx");
         }
         

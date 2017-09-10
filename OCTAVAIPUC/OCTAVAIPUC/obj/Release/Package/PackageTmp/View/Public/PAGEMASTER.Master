@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PAGEMASTER.master.cs" Inherits="OCTAVAIPUC.View.Public.PAGEMASTER" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Login</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Icons.css -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/icons/fuse-icon-font/style.css">
+
+        <!-- Animate.css -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/vendor/animate.css/animate.min.css">
+
+        <!-- PNotify -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/vendor/pnotify/pnotify.custom.min.css">
+
+        <!-- Nvd3 - D3 Charts -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/vendor/nvd3/build/nv.d3.min.css"/>
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/vendor/perfect-scrollbar/css/perfect-scrollbar.min.css"/>
+
+        <!-- Fuse Html -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/vendor/fuse-html/fuse-html.min.css"/>
+
+        <!-- Main CSS -->
+        <link type="text/css" rel="stylesheet" href="../../Conten/Private/assets/css/main.css">
+        <!-- / STYLESHEETS -->
+
+        <!-- JAVASCRIPT -->
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/jquery/dist/jquery.min.js"></script>
+
+        <!-- Mobile Detect -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/mobile-detect/mobile-detect.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+
+        <!-- Popper.js -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/popper.js/index.js"></script>
+
+
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+        <!-- Nvd3 - D3 Charts -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/d3/d3.min.js"></script>
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/nvd3/build/nv.d3.min.js"></script>
+
+        <!-- Data tables -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/datatables.net/js/jquery.dataTables.min.js"></script>
+
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/datatables-responsive/js/dataTables.responsive.js"></script>
+
+        <!-- PNotify -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/pnotify/pnotify.custom.min.js"></script>
+
+        <!-- Fuse Html -->
+        <script type="text/javascript" src="../../Conten/Private/assets/vendor/fuse-html/fuse-html.min.js"></script>
+
+        <!-- Main JS -->
+        <script type="text/javascript" src="../../Conten/Private/assets/js/main.js"></script>
+
+        <!-- / JAVASCRIPT -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -17,10 +17,15 @@ namespace OCTAVAIPUC.View.Public
         }
         protected void ButtonValidar_Click(object sender, EventArgs e)
         {
+
+        }
+
+        protected void ValidarUsuario(object sender, EventArgs e)
+        {
             //Condicion de validaciòn del usuario
-            if (new Usuario().ValidarUsuario(TextUsuario.Text, TextPass.Text))
+            if (new Usuario().ValidarUsuario(TextUsuario.Value, TextPass.Value))
             {
-                DataTable Consulta = new Usuario().ConsultarUsuario(TextUsuario.Text);
+                DataTable Consulta = new Usuario().ConsultarUsuario(TextUsuario.Value);
 
                 //Iniciar sesiòn del usuario
                 Usuario USU = new Usuario();
@@ -45,15 +50,15 @@ namespace OCTAVAIPUC.View.Public
                 {
                     case "5":
                         //Administrador
-                        Response.Redirect("../Private/index.aspx");
+                        Response.Redirect("/View/Private/index.aspx");
                         break;
                     case "6":
                         //Campesiono o proveedor
-                        Response.Redirect("../Private/index.aspx");
+                        Response.Redirect("/View/Private/index.aspx");
                         break;
                     case "3":
                         //Cliente
-                        Response.Redirect("Index.aspx");
+                        Response.Redirect("/View/Private/index.aspx");
                         break;
                     default:
                         //Encaso que no encuentre algun rol

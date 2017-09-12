@@ -16,9 +16,9 @@ namespace OCTAVAIPUC.Models
         public string DIR_IDMUNICIPIO { get; set; }
 
         //Metodo Para registrar direcciòn
-        public bool RegistrarDireccion(Direccion obj,string identificacion)
+        public bool RegistrarDireccion(Direccion obj)
         {
-            return Idato.OperarDatos("CALL `PR_DIRECCION_REGISTRAR`('"+obj.DIR_DETALLE+"', '"+identificacion+"', '"+obj.DIR_IDMUNICIPIO+"');");
+            return Idato.OperarDatos("INSERT INTO direccion VALUES(default, '"+DIR_DETALLE+"', "+DIR_IDPERSONA+", "+DIR_IDMUNICIPIO+"); ");
         }
     }
 }

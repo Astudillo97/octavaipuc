@@ -32,7 +32,7 @@
                                         <div class="form-group col-md-6">
                                             <label class="col-form-label">Tipo Identificación</label>
                                             <asp:DropDownList ID="DropTipoIdentificacion" CssClass="form-control" runat="server">
-                                                <asp:ListItem Value="0" Text="-Selecionar Tipo documento-"></asp:ListItem>
+                                                <asp:ListItem Value="0" Text="Selecionar documento-" Selected="True"></asp:ListItem>
                                             </asp:DropDownList>
                                         </div>
                                     </div>
@@ -45,49 +45,11 @@
                                         <asp:TextBox ID="TextApellido" CssClass="form-control" required="" placeholder="Ingresar Apellido" runat="server"></asp:TextBox>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-form-label">Celular</label>
-                                        <asp:TextBox ID="TextCelular" CssClass="form-control" TextMode="Number" required="" placeholder="(999) 999-9999" runat="server"></asp:TextBox>
-                                    </div>
-                                    <div class="form-group">
                                         <label class="col-form-label">Correo</label>
                                         <asp:TextBox ID="TextCorreo" TextMode="Email" CssClass="form-control" required="" placeholder="Example@Example.com" runat="server"></asp:TextBox>
                                     </div>
-
-                                    <div class="row">
-                                        <div class="form-group col-md-6">
-                                            <label class="control-label">Departamento</label>
-                                            <asp:DropDownList ID="DropDownDepartamento" AutoPostBack="true" OnSelectedIndexChanged="DropDownDepartamento_TextChanged" CssClass="form-control" runat="server">
-                                                <asp:ListItem Value="0" Text="-Selecionar Departamento-"></asp:ListItem>
-                                            </asp:DropDownList>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label class="control-label">Municipio</label>
-                                            <asp:DropDownList ID="DropDownMunicipio" CssClass="form-control" runat="server">
-                                                <asp:ListItem Value="0" Text="-Selecionar Municipio-"></asp:ListItem>
-                                            </asp:DropDownList>
-                                        </div>
-                                    </div>
                                     <div class="form-group">
-                                        <label class="control-label">Dirección</label>
-                                        <asp:TextBox ID="TextDireccion" TextMode="MultiLine" required="" placeholder="Barrio: Centro, Cra. 13 # 3-65" CssClass="form-control" runat="server"></asp:TextBox>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-group col-md-4">
-                                            <label class="control-label">Usuario</label>
-                                            <asp:TextBox ID="TextUser" placeholder="Usuaria o Nick" required="" CssClass="form-control" runat="server"></asp:TextBox>
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label class="control-label">Contraseña</label>
-                                            <asp:TextBox ID="TextPass" TextMode="Password" required="" CssClass="form-control" runat="server"></asp:TextBox>
-                                        </div>
-                                        <div class="form-group  col-md-4">
-                                            <label class="control-label">Rol</label>
-                                            <asp:DropDownList ID="DropDownRol" CssClass="form-control" runat="server">
-                                            </asp:DropDownList>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <asp:Panel ID="Alerta" Visible="false" runat="server" CssClass="alert alert-danger ">
+                                        <asp:Panel ID="Alerta" Visible="false" runat="server" CssClass="alert alert-danger">
                                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                                             <asp:Label ID="Alert" runat="server" Text=""></asp:Label>
                                         </asp:Panel>
@@ -101,7 +63,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- / WIDGET 1 -->
         </div>

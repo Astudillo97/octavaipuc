@@ -23,7 +23,7 @@ namespace MerCam.Modelo
         public DataTable ConsultarEstado(string detalle)
         {
             string sql = "SELECT IDESTADO FROM mercam.estado where EST_DETALLE;";
-            return Idato.ConsultarDatos(sql);
+            return Idato.ConsultarDatos(sql); 
         }
     }
 }

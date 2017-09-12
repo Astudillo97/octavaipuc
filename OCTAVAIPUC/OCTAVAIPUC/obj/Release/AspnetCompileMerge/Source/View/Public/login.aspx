@@ -8,31 +8,26 @@
         <div class="content">
             <div id="login" class="p-8">
                 <div class="form-wrapper md-elevation-8 p-8">
-                    <div class="logo bg-primary">
-                        <span>F</span>
+                    <div class="logo bg-cyan-100 logo-text">
+                        <span>IPUC</span>
                     </div>
-                    <div class="title mt-4 mb-8">Log in to your account</div>
+                    <div class="title mt-4 mb-8">Iniciar sesión</div>
                     <div>
                         <div class="form-group mb-4">
                             <input type="text" runat="server" id="TextUsuario" class="form-control"
                                 aria-describedby="emailHelp"
-                                placeholder=" " />
-                            <label for="loginFormInputEmail">Email address</label>
+                                placeholder="Usuario" />
+                            <label for="loginFormInputEmail">Usuario</label>
                         </div>
                         <div class="form-group mb-4">
                             <input type="password" class="form-control" runat="server" id="TextPass"
-                                placeholder="Password" />
-                            <label for="loginFormInputPassword">Password</label>
+                                placeholder="Contraseña" />
+                            <label for="loginFormInputPassword">Contraseña</label>
                         </div>
                         <div class="remember-forgot-password row no-gutters align-items-center justify-content-between pt-4">
                             <div class="form-check remember-me mb-4">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" aria-label="Remember Me" />
-                                    <span class="checkbox-icon"></span>
-                                    <span class="form-check-description">Remember Me</span>
-                                </label>
                             </div>
-                            <a href="#" class="forgot-password text-primary mb-4">Forgot Password?</a>
+                            <a href="#" class="forgot-password text-primary mb-4">¿Olvide la contraseña?</a>
                         </div>
                         <asp:Button ID="BtnInicio" runat="server" Text="INICIAR SESION" OnClick="ValidarUsuario" class="submit-button btn btn-block btn-primary my-4 mx-auto" />
                     </div>

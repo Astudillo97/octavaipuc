@@ -16,7 +16,7 @@ namespace OCTAVAIPUC.Models
 
         public DataTable ConsultarProf()
         {
-            return CONSULTA.ConsultarDatos("CALL `PR_PROFESION_CONSULTAR`()");
+            return CONSULTA.ConsultarDatos("select * from profesion;");
         }
     }
 }

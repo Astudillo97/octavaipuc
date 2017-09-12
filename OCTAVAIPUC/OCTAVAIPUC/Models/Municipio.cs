@@ -17,7 +17,7 @@ namespace OCTAVAIPUC.Models
 
         public DataTable ConsultarMunicipio(string departamento)
         {
-            return Idato.ConsultarDatos("CALL `PR_MUNICIPIO_CONSULTAR`('"+ departamento + "')");
+            return Idato.ConsultarDatos("select * from municipio where MUN_IDDEPARTAMENTO="+departamento+";");
         }
     }
 }

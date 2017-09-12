@@ -23,7 +23,7 @@ namespace OCTAVAIPUC.Models
         {
             try
             {
-                if (CONSULTA.ConsultarDatos("CALL `PR_USUARIO_VALIDAR`('" + user_name + "', '" + user_pass + "')").Rows.Count > 0)
+                if (CONSULTA.ConsultarDatos("select * from usuario where USU_USER='"+user_name+"' and USU_PASS=md5('"+user_pass+"' );").Rows.Count > 0)
                 {
                     return true;
                 }
@@ -38,13 +38,13 @@ namespace OCTAVAIPUC.Models
         //Metodo para consultar usuario por el nombre del usuario
         public DataTable ConsultarUsuario(string user)
         {
-            return CONSULTA.ConsultarDatos("CALL `PR_USUARIO_CONSULTAR_USERNAME`('" + user + "')");
+            return CONSULTA.ConsultarDatos("select * from usuario where USU_USER='"+user+"';");
         }
 
         //Metodo para registrar usuario
         public bool RegistrarUsuario(Usuario obj,string identificacion)
         {
-            return CONSULTA.OperarDatos("CALL `PR_USUARIO_REGISTRAR`('"+obj.USU_USER+"', '"+obj.USU_PASS+"', '"+identificacion+"', '"+obj.USU_IDROL+"')");
+            return CONSULTA.OperarDatos("INSERT INTO usuario VALUES (default, '"+obj.USU_USER+"', md5('"+obj.USU_PASS+"'), "+obj.USU_IDPERSONA+", "+obj.USU_IDROL+"); ");
         } 
     }
 }

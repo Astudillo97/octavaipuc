@@ -17,7 +17,7 @@ namespace OCTAVAIPUC.Models
         //Metodo de consulta de todos los roles.
         public DataTable ConsultarRol()
         {
-            return CONSULTA.ConsultarDatos("CALL `PR_ROL_CONSULTAR_G`()");
+            return CONSULTA.ConsultarDatos("select * from rol;");
         }
          
     }

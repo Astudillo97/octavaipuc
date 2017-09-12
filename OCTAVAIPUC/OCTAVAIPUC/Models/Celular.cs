@@ -14,9 +14,9 @@ namespace OCTAVAIPUC.Models
         public string CEL_IDPERSONA { get; set; }
         public string CEL_NUMERO { get; set; }
 
-        public bool RegistrarPersona(Celular obj,string identificacion)
+        public bool RegistrarCelular(Celular obj)
         {
-            return Idato.OperarDatos("CALL `PR_CELULAR_REGISTRAR`('"+identificacion+"', '"+obj.CEL_NUMERO+"');");
+            return Idato.OperarDatos("INSERT INTO celular  VALUES (default,'"+obj.CEL_NUMERO+"', '"+obj.CEL_IDPERSONA+"');");
         }
 
     }

@@ -16,7 +16,7 @@ namespace OCTAVAIPUC.Models
 
         public DataTable ConsultarDepartamento()
         {
-            return Idato.ConsultarDatos("CALL `PR_DEPARTAMENTO_CONSULTAR_G`()");
+            return Idato.ConsultarDatos("select * from departamento;");
         }
     }
 }

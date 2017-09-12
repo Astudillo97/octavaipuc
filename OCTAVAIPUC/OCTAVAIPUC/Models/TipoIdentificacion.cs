@@ -16,7 +16,7 @@ namespace OCTAVAIPUC.Models
 
         public DataTable ConsultarTipIdentificacion()
         {
-            return Idato.ConsultarDatos("CALL `PR_TIDENTIFICACION_CONSULTA_G`()");
+            return Idato.ConsultarDatos("select * from tidentificacion;");
         }
     }
 }

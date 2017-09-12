@@ -22,19 +22,19 @@ namespace OCTAVAIPUC.Models
         //Metodo Para registrar Persona.
        public bool RegistrarPersona(Persona obj)
         {
-            return CONSULTA.OperarDatos("CALL `PR_PERSONA_REGISTRAR`('"+obj.PER_IDENTIFICACION+"', '"+obj.PER_NOMBRE+"', '"+obj.PER_APELLIDO+"', '"+obj.PER_IDTIDENTIFICACION+ "', '" + obj.PER_CORREO + "');");
+            return CONSULTA.OperarDatos("INSERT INTO persona VALUES (default, '"+obj.PER_IDENTIFICACION+ "',upper( '" + obj.PER_NOMBRE+ "'), upper('" + obj.PER_APELLIDO+"'), '"+obj.PER_IDTIDENTIFICACION+"', '"+obj.PER_CORREO+"', '1');");
         }
 
         //Metodo para consultar la persona con el id
         public DataTable ConsultarPersonaId(string id)
         {
-            return CONSULTA.ConsultarDatos("CALL `PR_PERSONA_CONSULTAR_ID`('"+id+"')");
+            return CONSULTA.ConsultarDatos("select * from persona where IDPERSONA='"+id+"';");
         }
 
         //Metodo para consultar la persona con el numero de identificaciòn
         public DataTable ConsultarPersona(string identificacion)
         {
-            return CONSULTA.ConsultarDatos("CALL `PR_PERSONA_CONSULTAR_IDENTIFICACION`('"+identificacion+"')");
+            return CONSULTA.ConsultarDatos("select * from persona where PER_IDENTIFICACION='"+identificacion+"';");
         }
     }
 }

@@ -18,7 +18,7 @@ namespace OCTAVAIPUC.Models
         public DataTable ConsultarPKID(Menu men)
         {
             string sql = "select * from menu m where m.MEN_IDMENU="+men.men_idmenu+"";
-            return Idato.ConsultarDatos(sql);
+            return Idato.ConsultarDatos(sql); 
         }
     }
 }

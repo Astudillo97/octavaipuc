@@ -48,11 +48,11 @@ namespace OCTAVAIPUC.View.Public
                 //Condiciòn del direccionamiento del rol.
                 switch (USU.USU_IDROL)
                 {
-                    case "5":
+                    case "1":
                         //Administrador
                         Response.Redirect("/View/Private/index.aspx");
                         break;
-                    case "6":
+                    case "2":
                         //Campesiono o proveedor
                         Response.Redirect("/View/Private/index.aspx");
                         break;

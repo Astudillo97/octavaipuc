@@ -8,7 +8,7 @@
         <div class="content">
             <div id="login" class="p-8">
                 <div class="form-wrapper md-elevation-8 p-8">
-                    <div class="logo bg-primary">
+                    <div class="logo bg-cyan-100 logo-text">
                         <span>IPUC</span>
                     </div>
                     <div class="title mt-4 mb-8">Iniciar sesión</div>
